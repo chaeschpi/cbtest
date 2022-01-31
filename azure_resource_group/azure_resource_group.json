@@ -1,0 +1,32 @@
+{
+    "any-group-can-deploy": true,
+    "auto-historical-resources": false,
+    "build-items": [
+        {
+            "action-name": "create_rg",
+            "continue-on-failure": false,
+            "deploy-seq": 1,
+            "description": null,
+            "enabled-environments": [],
+            "execute-in-parallel": false,
+            "id": "31",
+            "name": "create_rg",
+            "run-on-scale-up": true,
+            "show-on-order-form": true,
+            "type": "plugin"
+        }
+    ],
+    "description": "",
+    "favorited": false,
+    "global-id": "BP-setmcbk7",
+    "groups-that-can-deploy": [],
+    "groups-that-can-manage": [],
+    "icon": "rg.png",
+    "id": "20",
+    "is-orderable": true,
+    "management-actions": [],
+    "name": "Azure Resource Group",
+    "sequence": 0,
+    "show-recipient-field-on-order-form": false,
+    "teardown-items": []
+}
